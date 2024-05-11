@@ -20,7 +20,7 @@
 .logo {
     background-image: url("amazonlogo.png");
     height: 50px;
-    width: 100px;
+    width: 120px;
     background-size: cover;
 }
 .border {
@@ -146,3 +146,32 @@ span {
 .hero-message a {
     color: #007185;
 }
+ /** shop section **/
+ .shop-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+ }
+ .box {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+ }
+ .box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+ }
+ .box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .box-content p {
+    color: #007185;
+ }
